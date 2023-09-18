@@ -1,0 +1,20 @@
+.upcomingContainer {
+  height: 100vh;
+  background: url("../assets/images/bg/upcoming.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scrollbar-width: thin;
+}
+
+.upcomingContainer .titlePage {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.upcomingContainer .titlePage h2 {
+  text-shadow: 2px 2px black;
+}

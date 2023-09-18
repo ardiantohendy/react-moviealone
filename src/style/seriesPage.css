@@ -1,0 +1,20 @@
+.seriesContainer {
+  height: 100vh;
+  background: url("../assets/images/bg/tvseries.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scrollbar-width: thin;
+}
+
+.seriesContainer .titlePage {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.seriesContainer .titlePage h2 {
+  text-shadow: 2px 2px black;
+}

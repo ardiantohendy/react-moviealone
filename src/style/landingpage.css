@@ -1,0 +1,70 @@
+.myBg {
+  height: 100vh;
+  background: url("../assets/images/bg/main.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.myBg .intro {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  padding: 5rem 0;
+}
+
+.myBg .intro h1 {
+  font-size: 6em;
+  line-height: 6rem;
+  font-weight: 800;
+  text-shadow: 2px 2px #e50914;
+}
+
+.myBg .intro p {
+  font-size: 1.2em;
+  line-height: 1.2rem;
+  font-style: italic;
+}
+
+.myBg .intro button {
+  margin-top: 1.5rem;
+  background: #e50914;
+  border-color: transparent;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .myBg Nav {
+    font-size: 0.8em;
+  }
+
+  .myBg .intro {
+    margin-top: 20%;
+    width: 95%;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 3%; */
+  }
+
+  .myBg .intro h1 {
+    font-size: 4em;
+    line-height: 4rem;
+    font-weight: 800;
+    text-shadow: 2px 2px black;
+  }
+
+  .myBg .intro p {
+    font-size: 1em;
+    margin: 1rem 1rem 2rem 1rem;
+    font-style: italic;
+    text-shadow: 1px 1px black;
+  }
+
+  .myBg .intro button {
+    margin-top: 0;
+    background: #e50914;
+    border-color: transparent;
+  }
+}

@@ -1,0 +1,84 @@
+.popularContainer {
+  height: 100vh;
+  background: url("../assets/images/bg/popular.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scrollbar-width: thin;
+}
+
+.popularContainer .titlePage {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.popularContainer .titlePage h2 {
+  text-shadow: 2px 2px black;
+}
+
+.content {
+  display: flex;
+  overflow-x: auto;
+  margin: 2rem 0.5rem;
+  gap: 10px;
+}
+
+.content::-webkit-scrollbar {
+  width: 1vw;
+  height: 1vw;
+  scrollbar-width: thin;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.content::-webkit-scrollbar-track {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.Movie-wrapper {
+  width: 20rem;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  margin-bottom: 10px;
+  border-radius: 1rem;
+}
+
+.Movie-wrapper img {
+  width: 20rem;
+}
+
+.Movie-title {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.Movie-title p {
+  font-size: 1em;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+.Movie-date {
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.Movie-rating {
+  text-align: center;
+  font-size: 1em;
+  color: red;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
